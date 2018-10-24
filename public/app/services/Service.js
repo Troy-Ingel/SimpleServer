@@ -2,7 +2,7 @@ angular
 .module('mainApp')
 .factory('Factory', Factory);
 
-InstaFactory.$inject = ['$http'];
+Factory.$inject = ['$http'];
 
 function Factory($http){
 
